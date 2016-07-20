@@ -49,5 +49,6 @@ end
 group :production do
   #for app t use postgresssql in production
   gem 'pg'
+  #
   gem 'rails_12factor'
 end
