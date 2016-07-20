@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'about', to: 'pages#about'
   
-  #
+  #gives us a new, post to create, update destroy
   resources :articles
 
   # Example of regular route:
